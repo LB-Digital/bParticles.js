@@ -3,6 +3,8 @@ SUPER Lightweight, 0 dependancies Javascript Particle library that I developed t
 
 ## DEMO
 An example of this Particle library can be found at http://lucasbowers.com/bParticles/
+![Screenshot of demo page](https://i.gyazo.com/96541b127651ca62ed5560443aba58db.gif)
+(The above image is a GIF.  Visit the link for a full quality example)
 
 ## Usage
 Download the `bParticles.js` file to your project folder, then import it as shown below...
