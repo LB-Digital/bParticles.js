@@ -1,10 +1,10 @@
 # bParticles
 SUPER Lightweight, 0 dependancies Javascript Particle library that I developed to add subtle particle detail to projects, creating a **more dynamic experience** for users, on pages that risk being boring and disengaging.
 
-### DEMO
+## DEMO
 An example of this Particle library can be found at http://lucasbowers.com/bParticles/
 
-### Usage
+## Usage
 Download the `bParticles.js` file to your project folder, then import it as shown below...
 ```html
 <script src="bParticles.js">
@@ -36,17 +36,17 @@ Download the `bParticles.js` file to your project folder, then import it as show
 This is simply a standard <script> import, with the particle configuration (explained below) within it.
 
 ### Options
-Within the <script> tags body, the particles can be configured.  The configuration options have been outlined below...
+Within the <script> tags body, the particles can be configured.  The configuration options have been outlined below, and an example can be seen above.
 
 Key | Type | Notes
 ----|------|------
-fps|integer|30fps is perfectly acceptable in terms of smoothness and CPU stress.
-container|DOM element selector (String)|Specify which element the particles should be contained within.
-amount|integer|The amount of particles that should be alive at any single time
-size.min|integer|Minimum size of the particles (make same as size.max for standard sized particles).
-size.max|integer|Maximum size of the particles (make same as size.min for standard sized particles).
-speed.min|integer|Minimum speed of the particles (make same as speed.max to make all particles move at the same speed).
-speed.max|integer|Maximum speed of the particles (make same as speed.min to make all particles move at the same speed).
-style.backgroundColor|string|CSS Color String to specify background color of particle container (blank for transparent background).
-style.fill.color|string|CSS Color String to specify color of the particles.
-style.fill.opacity|number|Decimal value between 0 (invisible), 1 (solid) to specify the opacity of the particles.
+`fps`|integer|30fps is perfectly acceptable in terms of smoothness and CPU stress.
+`container`|DOM element selector (String)|Specify which element the particles should be contained within.
+`amount`|integer|The amount of particles that should be alive at any single time
+`size.min`|integer|Minimum size of the particles (make same as size.max for standard sized particles).
+`size.max`|integer|Maximum size of the particles (make same as size.min for standard sized particles).
+`speed.min`|integer|Minimum speed of the particles (make same as speed.max to make all particles move at the same speed).
+`speed.max`|integer|Maximum speed of the particles (make same as speed.min to make all particles move at the same speed).
+`style.backgroundColor`|string|CSS Color String to specify background color of particle container (blank for transparent background).
+`style.fill.color`|string|CSS Color String to specify color of the particles.
+`style.fill.opacity`|number|Decimal value between 0 (invisible), 1 (solid) to specify the opacity of the particles.
