@@ -114,7 +114,7 @@ class Particle{
 
 
 
-function showParticles(options){
+function bParticles(options){
   // Setup Canvas
   var container = document.querySelector(options.container);
   options.canvas = {};
@@ -153,7 +153,7 @@ function showParticles(options){
   var particles = [];
 
   var count = 0;
-  const timer = setInterval(function(){
+  const timerID = setInterval(function(){
     count++;
 
     // GEN new particles
@@ -187,4 +187,4 @@ for (script of document.getElementsByTagName('script')){
   }
 }
 
-showParticles(particleOptions);
+bParticles(particleOptions);
