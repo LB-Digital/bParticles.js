@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+
+<body>
+
+<div id="particles"></div>
+
+<div id="titles">
+  <h1>bParticles.js</h1>
+  <p>A <strong>SUPER</strong> lightweight Particle library by <a href="//lucasbowers.com">BowersDevelopment</a></p>
+  <a href="https://github.com/BowersDev/bParticles.js"><img src="assets/images/github.png" width="60px"></a>
+</div>
+
+
+
+
+<script src="bParticles/bParticles.js"></script>
+<script>
+
+bParticles("bParticles/bParticles.json", "particles", function(particlesID){
+    console.log("bParticles initiliazed with ID #" + particlesID);
+});
+
+</script>
+</body>
+</html>
