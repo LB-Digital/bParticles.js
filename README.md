@@ -12,7 +12,7 @@ You will need the `bParticles.js` file downloaded into your project folder, as w
 <script src="path/to/bParticles.js"></script>
 ```
 
-To initialize the particles, you will need to call the main `bParticles()` function like so...
+To initialize the particles, you will need to call the main `bParticles()` JS function like so...
 ```js
 bParticles("path/to/bParticles.json", "<id of container>", function(particlesID){
   console.log("bParticles initiliazed with ID #" + particlesID);
