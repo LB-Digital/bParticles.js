@@ -3,42 +3,19 @@ SUPER Lightweight, 0 dependancies Javascript Particle library that I developed t
 
 ## DEMO
 An example of this Particle library can be found at http://dev.lucasbowers.com/bparticles/
-<a href="http://dev.lucasbowers.com/bparticles/" target="_blank"><img src="https://i.gyazo.com/96541b127651ca62ed5560443aba58db.gif" alt="Live demo page" /></a>
+<a href="http://dev.lucasbowers.com/bparticles/" target="_blank"><img src="http://dev.lucasbowers.com/bparticles/assets/images/preview.gif" alt="Live demo page" /></a>
 (The above image is a GIF. Click it for a full quality example)
 
 ## Usage
-Download the `bParticles.js` file to your project folder, then import it as shown below...
+You will need the `bParticles.js` file downloaded into your project folder, as well as a JSON config file.
+
+Download the `bParticles.js` file to your project folder, then import it into your HTML file as follows...
 ```html
-<script src="bParticles.js">
-{
-  "fps": 30,
-  "container": "#myDiv",
-  "amount": 25,
-
-  "size":{
-    "min": 2,
-    "max": 30
-  },
-
-  "speed":{
-    "min": 2,
-    "max": 10
-  },
-
-  "style":{
-    "backgroundColor": "#111",
-    "fill":{
-      "color": "#66FF00",
-      "opacity": "0.8"
-    }
-  }
-}
-</script>
+<script src="path/to/bParticles.js"></script>
 ```
-This is simply a standard <script> import, with the particle configuration (explained below) within it.
 
-### Options
-Within the <script> tags body, the particles can be configured.  The configuration options have been outlined below, and an example can be seen above.
+## Options
+To customise the particles, you must create a JSON configuration file, an example of which can be found in the project files `bParticles.json`.  The following options are set within this file...
 
 Key | Type | Notes
 ----|------|------
