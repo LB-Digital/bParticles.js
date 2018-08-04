@@ -2,7 +2,7 @@
 SUPER Lightweight, 0 dependancies Javascript Particle library that I developed to add subtle particle detail to projects, creating a **more dynamic experience** for users, on pages that risk being boring and disengaging.
 
 ## DEMO
-An example of this Particle library can be found at http://lucasbowers.com/bparticles/
+An example of this Particle library can be found at http://dev.lucasbowers.com/bparticles/
 <a href="http://dev.lucasbowers.com/bparticles/" target="_blank"><img src="https://i.gyazo.com/96541b127651ca62ed5560443aba58db.gif" alt="Live demo page" /></a>
 (The above image is a GIF. Click it for a full quality example)
 
