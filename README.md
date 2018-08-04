@@ -7,11 +7,16 @@ An example of this Particle library can be found at http://dev.lucasbowers.com/b
 (The above image is a GIF. Click it for a full quality example)
 
 ## Usage
-You will need the `bParticles.js` file downloaded into your project folder, as well as a JSON config file.
-
-Download the `bParticles.js` file to your project folder, then import it into your HTML file as follows...
+You will need the `bParticles.js` file downloaded into your project folder, as well as a JSON config file. Import this file into your HTML as follows...
 ```html
 <script src="path/to/bParticles.js"></script>
+```
+
+To initialize the particles, you will need to call the main `bParticles()` function like so...
+```js
+bParticles("path/to/bParticles.json", "<id of container>", function(particlesID){
+  console.log("bParticles initiliazed with ID #" + particlesID);
+});
 ```
 
 ## Options
