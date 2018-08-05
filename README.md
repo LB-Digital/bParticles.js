@@ -25,7 +25,6 @@ To customise the particles, you must create a JSON configuration file, an exampl
 Key | Type | Notes
 ----|------|------
 `fps`|integer|30fps is perfectly acceptable in terms of smoothness and CPU stress.
-`container`|DOM element selector (String)|Specify which element the particles should be contained within.
 `amount`|integer|The amount of particles that should be alive at any single time
 `size.min`|integer|Minimum size of the particles (make same as size.max for standard sized particles).
 `size.max`|integer|Maximum size of the particles (make same as size.min for standard sized particles).
